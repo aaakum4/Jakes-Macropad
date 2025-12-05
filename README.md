@@ -30,9 +30,11 @@ Assembly uses 4 M3 screws with heatset inserts for modularity and stability.
 
 ## PCB
 The PCB is designed in KiCad with MX-style switch footprints and supports future enhancements like a ground plane.
+
 Schematic:
 
 <img width="969" height="617" alt="Screenshot 2025-12-05 at 7 09 11 pm" src="https://github.com/user-attachments/assets/b894a0de-f565-4e7c-b08b-8c19cbd93a47" />
+
 
 PCB Layout:
 
