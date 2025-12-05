@@ -85,12 +85,15 @@ encoder.map = [
 #                     LED SETUP
 # ----------------------------------------------------------
 
-# NeoPixel LED on single GPIO
-NUM_LEDS = 1
+# NeoPixel LEDs on single GPIO
+NUM_LEDS = 2
 led = neopixel.NeoPixel(LED_PIN, NUM_LEDS, brightness=0.3, auto_write=True)
 
 mute_state = False
 oled_mode = 0
+
+# Keep track of previous switch states
+prev_matrix_state = [False] * len(SWITCH_PINS)
 
 # ----------------------------------------------------------
 #              OLED SETUP (UPTIME CLOCK)
@@ -162,15 +165,14 @@ def after_matrix_scan(kbd):
 
         if not prev and now:
             if i == 0:  # SW1: cycle OLED mode
-                oled_mode = (oled_mode + 1) % 4  # cycle between 0, 1, 2, and 3
+                oled_mode = (oled_mode + 1) % 4  # cycle between 0, 1, 2, 3
 
         prev_matrix_state[i] = now
 
     # Red if muted, blue if not muted
-    if mute_state:
-        led[0] = (255, 0, 0)   # red
-    else:
-        led[0] = (0, 0, 255)   # blue
+    color = (255, 0, 0) if mute_state else (0, 0, 255)
+    for i in range(NUM_LEDS):
+        led[i] = color
 
 keyboard.after_matrix_scan.append(after_matrix_scan)
 
