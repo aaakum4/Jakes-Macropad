@@ -3,7 +3,7 @@ GojoPad is a fully 3D-printed 4-key macropad featuring a rotary encoder, a small
 
 
 ## Features
-- Fully 3D-printed dual-layer case with a 2° ergonomic tilt.
+- Fully 3D-printed dual-layer case with a 2° ergonomic tilt. Printed in white filament to match Gojo's hair and my white setup.
 - 128x32 OLED display showing multiple modes: uptime clock, custom mode label, simple graphic, and volume bar.
 - EC11 rotary encoder:
 -   Rotate clockwise to increase volume, counterclockwise to decrease volume.
@@ -22,6 +22,7 @@ GojoPad is a fully 3D-printed 4-key macropad featuring a rotary encoder, a small
 The case is composed of two 3D-printed pieces:
 Base: secures the PCB and provides structural support and sits on a roughly 2˚ tilt.
 Top housing: holds switches, diffuses LED light, and features the Gojo etching.
+* Printed in white filament to match Gojo's hair and my white setup.
 
 Assembly uses 4 M3 screws with heatset inserts.
 
