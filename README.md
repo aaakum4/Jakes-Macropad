@@ -51,7 +51,7 @@ GojoPad runs KMK firmware:
 
 
 ## BOM (Bill of Materials)
-- 4x MX-style switches
+- 4x Cherry MX switches
 - 4x Keycaps (DSA recommended)
 - 4x M3x5mx4mm heatset inserts
 - 4x M3x16mm screws
