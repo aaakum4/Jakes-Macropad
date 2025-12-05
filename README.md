@@ -23,9 +23,14 @@ The case is composed of two 3D-printed pieces:
 Base: secures the PCB and provides structural support and sits on a roughly 2˚ tilt.
 Top housing: holds switches, diffuses LED light, and features the Gojo etching.
 
-Assembly uses 4 M3 screws with heatset inserts for modularity and stability.
+Assembly uses 4 M3 screws with heatset inserts.
 
 <img width="683" height="360" alt="Screenshot 2025-12-05 at 7 08 00 pm" src="https://github.com/user-attachments/assets/28388dad-e0d5-4b3d-a5c9-b6644cd574b6" />
+
+
+How it will fit together:
+
+<img width="844" height="684" alt="Screenshot 2025-12-05 at 7 24 44 pm" src="https://github.com/user-attachments/assets/7676b1fa-ec75-4ebd-ac03-92fa7d52d46f" />
 
 
 ## PCB
